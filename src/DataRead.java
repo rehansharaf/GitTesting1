@@ -38,6 +38,7 @@ public class DataRead {
 	public void setUp() {
 
 		System.out.println("This is the edited line made by rehan");
+		System.out.println("Added in rehan repo this is the second line");
 		/*System.setProperty("webdriver.chrome.driver", "C:/drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
