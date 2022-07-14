@@ -36,7 +36,8 @@ public class DataRead {
 	
 	@Before
 	public void setUp() {
-		
+
+		System.out.println("This is the edited line made by rehan");
 		/*System.setProperty("webdriver.chrome.driver", "C:/drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.MINUTES);
