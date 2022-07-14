@@ -34,6 +34,10 @@ public class DataRead {
 	String Local1 = "C:/FTPDownload/Processing/";
 	String outputLoc = "C:/FTPDownload/Archived/";
 	
+	public DataRead(WebDriver driver) {
+		this.driver = driver;
+	}
+	
 	@Before
 	public void setUp() {
 
